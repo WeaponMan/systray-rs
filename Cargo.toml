@@ -18,8 +18,8 @@ winapi= { version = "0.3.8", features = ["shellapi", "libloaderapi", "errhandlin
 libc= "0.2.66"
 
 [target.'cfg(target_os = "linux")'.dependencies]
-gtk= "0.8.1"
-glib= "0.9.3"
+glib = "^0"
+gtk = "0.9"
 libappindicator= "0.5.1"
 
 # [target.'cfg(target_os = "macos")'.dependencies]
